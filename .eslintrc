@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "d3": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "array-bracket-spacing": [2, "never"],
+    "arrow-parens": ["error", "always"],
+    "comma-dangle": [2, "never"],
+    "eol-last": [2, "never"],
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "no-console": 0,
+    "no-multiple-empty-lines": 2,
+    "object-curly-spacing": [2, "never"],
+    "quotes": [2, "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+    "semi": [2, "never"],
+    "display-name": 0
+  },
+  "plugins": [
+  ]
+}
